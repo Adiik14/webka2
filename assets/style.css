@@ -1,0 +1,50 @@
+#hobby {
+  background-color: red !important;
+}
+body {
+  background: #A9A9A9;
+  color: #FFFF00;
+}
+#border {
+  width: 400px;
+  height: 200px;
+  border: 15px solid coral;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: black;}
+}
+
+#padding {
+  background-color: lightblue;
+  border: 1px solid black;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {padding: 100px;}
+}
+#margin {
+  background-color: black;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {margin: 40px;}
+}
+.memchik {
+  float: right;
+}
+clear {
+  clear:right;
+}
+
+p {color: red;}
+p.ex1 {display:none; }
+p.ex2 {display: block;}
+p.ex3 {display: inline;}
+
+h2 {position: absolute;
+left: 200px;
+top: 200px;}
